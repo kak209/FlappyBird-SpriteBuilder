@@ -74,7 +74,7 @@
         _gameOver = TRUE;
         _restartButton.visible = TRUE;
         
-        character.physicsBody.velocity = ccp(1000.0f, character.physicsBody.velocity.y);
+        character.physicsBody.velocity = ccp(0.0f, character.physicsBody.velocity.y);
         character.rotation = 360.f;
         character.physicsBody.allowsRotation = TRUE;
         [character stopAllActions];
